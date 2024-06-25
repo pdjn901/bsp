@@ -1,4 +1,7 @@
 
+//How to list down the recepies in local meta/repo/layer_directory(i.e, /poky)
+  $$ ls meta*/recipes*/images/*.bb
+
 
 //how to add recipe to BBlayer
 https://docs.yoctoproject.org/dev/dev-manual/new-recipe.html
