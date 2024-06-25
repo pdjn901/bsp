@@ -1,0 +1,16 @@
+
+
+//how to add recipe to BBlayer
+https://docs.yoctoproject.org/dev/dev-manual/new-recipe.html
+
+//customising the image.
+https://docs.yoctoproject.org/dev/dev-manual/customizing-images.html
+   i) Using local.conf
+       a) IMAGE_INSTALL:append = " strace"  //recipe for all images
+       b) IMAGE_INSTALL:append:pn-core-image-minimal = " strace" //recipe specific to this images only(i.e,core-image-minimal) //no SSH server included in core-image-minimal                           
+       b) IMAGE_INSTALL:append:pn-core-image-cmdline = " printer_cups" // "core-image-full-cmdline" and "core-image-lsb" for images having "OPENSSH" package/recipe.
+  //run/build image:----> bitbake core-image-cmdline //to include OPENSSH
+  //run/build image:----> bitbake core-image-minimal //to not invlude SSH server
+  //run/build image:----> bitbake core-image-lsb //to include OPENSSH and Linux Foundation software system structure, including the Filesystem Hierarchy Standard. LSB was based on the POSIX specification, the Single UNIX Specification.
+
+
