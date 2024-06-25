@@ -14,3 +14,8 @@ https://docs.yoctoproject.org/dev/dev-manual/customizing-images.html
   //run/build image:----> bitbake core-image-lsb //to include OPENSSH and Linux Foundation software system structure, including the Filesystem Hierarchy Standard. LSB was based on the POSIX specification, the Single UNIX Specification.
 
 
+//Applying patches, modifying recipes and adding receipe.
+    //https://docs.yoctoproject.org/dev/kernel-dev/common.html#applying-patches
+//kernel source tree and defconfig
+      //defconfig from kernel source tree.
+      //https://docs.yoctoproject.org/dev/kernel-dev/common.html#using-an-in-tree-defconfig-file
