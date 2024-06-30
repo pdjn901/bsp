@@ -1,0 +1,8 @@
+29Jun2024
+//yocto bsp raspbian.
+//https://www.youtube.com/watch?v=EVp530qn4yM
+//wiki notes procedure:_ //https://raspinterest.wordpress.com/2016/11/30/yocto-project-on-raspberry-pi-3/
+//yocto project fundamentals:- https://docs.yoctoproject.org/brief-yoctoprojectqs/index.html
+
+
+//hello world kernel module:-  //https://www.bing.com/videos/riverview/relatedvideo?&q=yocto+project+quick+build+bbb&&mid=7EA126A7426C942FEAF57EA126A7426C942FEAF5&mmscn=mtsc&aps=814&FORM=VRDGAR
