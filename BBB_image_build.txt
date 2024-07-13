@@ -3,3 +3,5 @@
 https://www.youtube.com/watch?v=GOFmRbN1hZ8
 
 //https://bootlin.com/blog/yocto-project-quickest-instructions-to-generate-beaglebone-images/#:~:text=Here%20are%20the%20quickest%20instructions%20%28I%20hope%29%20for,CPU%3A%20git%20clone%20-b%20kirkstone%20https%3A%2F%2Fgit.yoctoproject.org%2Fgit%2Fpoky%20source%20poky%2Foe-init-build-env
+
+//https://bootlin.com/doc/training/yocto/yocto-labs.pdf
